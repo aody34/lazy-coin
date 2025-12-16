@@ -20,17 +20,27 @@ const Community: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6">
-            <a href="#" className="flex items-center gap-3 px-8 py-4 bg-[#1DA1F2] hover:bg-[#1a91da] text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg">
+            <a 
+              href="https://x.com/LazyCoin_12" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-8 py-4 bg-[#1DA1F2] hover:bg-[#1a91da] text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg"
+            >
               <Twitter size={24} />
               <span>Twitter</span>
             </a>
             
-            <a href="#" className="flex items-center gap-3 px-8 py-4 bg-[#229ED9] hover:bg-[#1f8ec2] text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg">
+            <a 
+              href="https://t.me/lazy_coin13" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-8 py-4 bg-[#229ED9] hover:bg-[#1f8ec2] text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg"
+            >
               <Send size={24} />
               <span>Telegram</span>
             </a>
 
-            <a href="#" className="flex items-center gap-3 px-8 py-4 bg-gray-800 hover:bg-gray-700 text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg">
+            <a href="#" className="flex items-center gap-3 px-8 py-4 bg-gray-800 hover:bg-gray-700 text-white rounded-full font-bold transition-transform hover:-translate-y-1 shadow-lg opacity-70 cursor-not-allowed">
               <MessageCircle size={24} />
               <span>Discord (Maybe)</span>
             </a>
